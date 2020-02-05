@@ -202,6 +202,10 @@
         height: 118px;
 
     }
+    .QRCODE{
+        width: 260px;
+        height: 260px;
+    }
 
     .Boxwallet {
         display: flex;
@@ -217,7 +221,7 @@
     }
 
     .Boxpublickey {
-        font-size: 30px;
+        font-size: 20px;
         margin-top: 18px;
         color: white;
     }
@@ -227,15 +231,15 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        width: 180px;
+        width: 400px;
         height: 50px;
     }
 
     .threebtn {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         width: 600px;
-        height: 60px;
+        height: 150px;
         justify-content: space-around;
         align-items: center;
     }
@@ -494,8 +498,8 @@
         }
 
         .Logo {
-            width: 100px;
-            height: 48px;
+            width: 400px;
+            height: 400px;
 
         }
 
@@ -658,25 +662,18 @@
                 <img class="Logo" src="https://dorm.psu.ac.th/system/files/images/psu-logo.png" alt="">
             </div>
             <div class="Boxwallet">
-                <div class="BoxwalletSymnol">
-                    <span>1000 PSU Coin</span>
-                </div>
+                    <img class="QRCODE" src="https://th.qr-code-generator.com/wp-content/themes/qr/new_structure/markets/basic_market/generator/dist/generator/assets/images/websiteQRCode_noFrame.png" alt="">
                 <div class="Boxpublickey">
-                    <p>Wallet: <span>0xE9E6Ce3937d7eEA4906001F5c0F020176B2e84fC</span>
-                        <ion-icon name="copy"></ion-icon>
-                    </p>
+                    <p> 0xE9E6Ce3937d7eEA4906001F5c0F020176B2e84fC</p>
                 </div>
             </div>
             <div class="threebtn">
                 <button type="button" class="btn btn-light Allbtn">
-                    <ion-icon name="send"></ion-icon><span>SEND</span>
+                    <ion-icon name="copy"></ion-icon>Copy</span>
                 </button>
                 <button type="button" class="btn btn-light Allbtn">
-                    <ion-icon name="qr-scanner"></ion-icon><span>Payment</span>
-                </button>
-                <button type="button" class="btn btn-light Allbtn">
-                    <ion-icon name="folder-open"></ion-icon>
-                    </ion-icon><span>History</span>
+                    <ion-icon name="arrow-back"></ion-icon>
+                    </ion-icon><span>Back</span>
                 </button>
             </div>
 
