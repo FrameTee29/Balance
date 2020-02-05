@@ -202,7 +202,8 @@
         height: 118px;
 
     }
-    .QRCODE{
+
+    .QRCODE {
         width: 260px;
         height: 260px;
     }
@@ -296,7 +297,7 @@
         }
 
         .Boxpublickey {
-            font-size: 25px;
+            font-size: 20px;
             margin-top: 18px;
             color: white;
         }
@@ -306,15 +307,15 @@
             flex-direction: row;
             justify-content: center;
             align-items: center;
-            width: 180px;
-
+            width: 400px;
+            height: 50px;
         }
 
         .threebtn {
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             width: 600px;
-            height: 40px;
+            height: 150px;
             justify-content: space-around;
             align-items: center;
         }
@@ -382,15 +383,15 @@
             flex-direction: row;
             justify-content: center;
             align-items: center;
-            width: 150px;
-
+            width: 400px;
+            height: 50px;
         }
 
         .threebtn {
             display: flex;
-            flex-direction: row;
-            width: 500px;
-            height: 40px;
+            flex-direction: column;
+            width: 600px;
+            height: 150px;
             justify-content: space-around;
             align-items: center;
         }
@@ -414,7 +415,7 @@
             display: flex;
             flex-direction: column;
             width: 425px;
-            height: 500px;
+            height: 550px;
             justify-content: space-around;
             align-items: center;
             background: linear-gradient(to bottom right, #fd6cb6, #87ceeb);
@@ -447,21 +448,22 @@
             color: white;
         }
 
-        .threebtn {
-            display: flex;
-            flex-direction: column;
-            width: 300px;
-            height: 200px;
-            justify-content: space-around;
-            align-items: center;
-        }
-
         .Allbtn {
             display: flex;
             flex-direction: row;
             justify-content: center;
             align-items: center;
             width: 300px;
+            height: 40px;
+        }
+
+        .threebtn {
+            display: flex;
+            flex-direction: column;
+            width: 425px;
+            height: 120px;
+            justify-content: space-around;
+            align-items: center;
         }
 
         .Sponsored {
@@ -489,7 +491,7 @@
             display: flex;
             flex-direction: column;
             width: 375px;
-            height: 400px;
+            height: 550px;
             justify-content: space-around;
             align-items: center;
             background: linear-gradient(to bottom right, #fd6cb6, #87ceeb);
@@ -498,9 +500,13 @@
         }
 
         .Logo {
-            width: 400px;
-            height: 400px;
+            width: 120px;
+            height: 60px;
 
+        }
+        .QRCODE{
+            width: 260px;
+            height: 260px;
         }
 
         .Boxwallet {
@@ -559,7 +565,7 @@
             display: flex;
             flex-direction: column;
             width: 320px;
-            height: 400px;
+            height: 550px;
             justify-content: space-around;
             align-items: center;
             background: linear-gradient(to bottom right, #fd6cb6, #87ceeb);
@@ -595,8 +601,8 @@
         .threebtn {
             display: flex;
             flex-direction: column;
-            width: 300px;
-            height: 150px;
+            width: 280px;
+            height: 120px;
             justify-content: space-around;
             align-items: center;
         }
@@ -606,7 +612,7 @@
             flex-direction: row;
             justify-content: center;
             align-items: center;
-            width: 300px;
+            width: 280px;
             height: 40px;
         }
 
@@ -628,7 +634,6 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top py-1" id="mainNav">
-        <div class="container">
             <img src="/front/img/Prince_of_Songkla_University_Emblem.png" alt="Smiley face" width="42" height="52"
                 onclick="gotoindex()">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">PSU COIN</a>
@@ -653,7 +658,7 @@
                             </li> -->
                 </ul>
             </div>
-        </div>
+
 
     </nav>
     <div>
@@ -662,7 +667,9 @@
                 <img class="Logo" src="https://dorm.psu.ac.th/system/files/images/psu-logo.png" alt="">
             </div>
             <div class="Boxwallet">
-                    <img class="QRCODE" src="https://th.qr-code-generator.com/wp-content/themes/qr/new_structure/markets/basic_market/generator/dist/generator/assets/images/websiteQRCode_noFrame.png" alt="">
+                <img class="QRCODE"
+                    src="https://th.qr-code-generator.com/wp-content/themes/qr/new_structure/markets/basic_market/generator/dist/generator/assets/images/websiteQRCode_noFrame.png"
+                    alt="">
                 <div class="Boxpublickey">
                     <p> 0xE9E6Ce3937d7eEA4906001F5c0F020176B2e84fC</p>
                 </div>
